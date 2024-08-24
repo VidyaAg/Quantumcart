@@ -4,7 +4,6 @@ import ProdcutList from "./productlist/page";
 export default function Home() {
   return (
     <div>
-      <Header />
       <ProdcutList />
     </div>
   );

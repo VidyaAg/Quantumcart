@@ -16,15 +16,13 @@ const Header: React.FC = () => {
     };
 
     return (
-        <AppBar position="static" className="py-4" 
-        style={{backgroundImage: "linear-gradient(to right top, #ba67bd, #a85cc3, #9053c9, #704dd0, #3949d8)"}}>
+        <AppBar position="static" className="py-1" 
+        style={{backgroundColor:"white", color:"gray"}}>
             <Toolbar className="container mx-auto flex justify-between items-center max-w-8xl">
                 {/* Logo */}
-                <Typography variant="h6" className="text-white">
                     <a href="/" className="flex items-center">
-                        <img src="logo.png" alt="Logo" className="h-10" />
+                        <img src="/images/ZZZ.png" alt="Logo" className="h-14" />
                     </a>
-                </Typography>
 
                 {/* Right Side Items */}
                 <div className="flex items-center space-x-4 relative">
